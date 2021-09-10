@@ -1,0 +1,30 @@
+{
+  "name": "toursbooking",
+  "version": "1.0.0",
+  "description": "tours booking project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Vitalie Cirjeleanu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.0.1",
+    "mongoose": "^5.13.5",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.12",
+    "save": "^2.4.0",
+    "slugify": "^1.6.0",
+    "stripe": "^8.174.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  }
+}
