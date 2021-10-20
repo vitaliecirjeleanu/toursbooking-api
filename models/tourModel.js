@@ -62,7 +62,8 @@ const tourSchema = mongoose.Schema({
     required: [true, 'A tour must have an address for every locations.'],
   },
   startLocation: String,
-  locationsCoordinates: [Object],
+  locationsCoordinates: [Array],
+  // locationsCoordinates: [Object], //this is for GOOGLE MAPS
   days: [String],
   slug: String,
   guides: [
